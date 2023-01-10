@@ -1,6 +1,9 @@
 package com.example.simplebooleandemo;
 
 import javafx.beans.property.SimpleBooleanProperty;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
 import javafx.scene.layout.AnchorPane;
@@ -18,12 +21,31 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        System.out.println("Before checking checkbox "+simpleBooleanProperty);
+
+        simpleBooleanProperty.addListener(new ChangeListener<Boolean>() {
+            @Override
+            public void changed(ObservableValue<? extends Boolean> observableValue, Boolean aBoolean, Boolean t1) {
+                setNewText();
+            }
+        });
+
+        System.out.println("Before checking checkbox " + simpleBooleanProperty);
+        txt1.setText("After the check " + simpleBooleanProperty.getValue());
         if (chk1.isSelected()) {
             simpleBooleanProperty.setValue(chk1.isSelected());
         }
-        System.out.println("After the check " + simpleBooleanProperty);
+
+        txt1.setText("After the check " + simpleBooleanProperty.getValue());
+
+
     }
 
+    public void setNewText() {
+        txt1.setText(simpleBooleanProperty.toString());
+    }
 
+    public void checkBoxHandler(ActionEvent actionEvent) {
+        simpleBooleanProperty.setValue(chk1.isSelected());
+
+    }
 }

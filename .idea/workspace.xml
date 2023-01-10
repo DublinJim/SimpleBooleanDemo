@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3c5b79-3f09-470e-b9ba-67b9da2c2a6b" name="Changes" comment="init commit blank format">
+    <list default="true" id="8f3c5b79-3f09-470e-b9ba-67b9da2c2a6b" name="Changes" comment="add the initial check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/simplebooleandemo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/simplebooleandemo/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simplebooleandemo/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simplebooleandemo/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +83,19 @@
       <option name="project" value="LOCAL" />
       <updated>1673365449789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add the initial check">
+      <created>1673366056451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673366056451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit blank format" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit blank format" />
+    <MESSAGE value="add the initial check" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the initial check" />
   </component>
 </project>
