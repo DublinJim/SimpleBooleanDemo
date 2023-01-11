@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f3c5b79-3f09-470e-b9ba-67b9da2c2a6b" name="Changes" comment="add the initial check">
+    <list default="true" id="8f3c5b79-3f09-470e-b9ba-67b9da2c2a6b" name="Changes" comment="adds checkbox code">
+      <change afterPath="$PROJECT_DIR$/src/coin-teaser-v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/simplebooleandemo/coin-teaser-v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/Royal_Canadian_Mint_The_Royal_Canadian_Mint_Launches_its_Largest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/coin-teaser-v2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/simplebooleandemo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/simplebooleandemo/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simplebooleandemo/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simplebooleandemo/hello-view.fxml" afterDir="false" />
@@ -35,18 +39,32 @@
     </option>
   </component>
   <component name="ProjectId" id="2K8nN4lyBVXcCFOmVKUnMRUAmKo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/james.keogh/IdeaProjects/proto/SimpleBooleanDemo/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\james.keogh\IdeaProjects\proto\SimpleBooleanDemo\src" />
+      <recent name="C:\Users\james.keogh\IdeaProjects\proto\SimpleBooleanDemo\src\main\java\com\example\simplebooleandemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\james.keogh\IdeaProjects\proto\SimpleBooleanDemo\src\main\resources" />
+      <recent name="C:\Users\james.keogh\IdeaProjects\proto\SimpleBooleanDemo\src\main\resources\com\example\simplebooleandemo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.simplebooleandemo.HelloApplication" />
@@ -90,12 +108,32 @@
       <option name="project" value="LOCAL" />
       <updated>1673366056451</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adds checkbox code">
+      <created>1673367231230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673367231230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init commit blank format" />
     <MESSAGE value="add the initial check" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the initial check" />
+    <MESSAGE value="adds checkbox code" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds checkbox code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/simplebooleandemo/Controller.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
